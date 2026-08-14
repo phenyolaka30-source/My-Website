@@ -28,8 +28,5 @@ If you are editing the code:
 ## Technologies
 
 - HTML
-- CSS
-
----
 
 Note: This is a basic template. You can adjust the image sizes and layout by editing the CSS in the `<style>` section of the HTML file
