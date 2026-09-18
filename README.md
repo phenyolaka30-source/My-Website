@@ -67,6 +67,10 @@ Corrected `call-us.jpg` → `call-us.jpeg`.
 Corrected Windows backslash `\` → forward slash `/` in image paths.
 Renamed `coffee community.jpeg` → `coffee-community.jpeg` (removed space).
 
+Screenshots
+-Laptop
+
+
 References
 
 MDN Web Docs — CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
