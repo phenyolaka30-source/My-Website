@@ -40,7 +40,16 @@
 
             <h3>Ethically Sourced</h3>
             <p>We work directly with small-scale farmers in Ethiopia, Colombia, and Rwanda to bring you the highest quality beans.</p>
-            <img src="images/origin.jpeg" alt="Ethically Sourced Badge" width="150" height="auto">
+
+            <picture>
+                <source media="(max-width: 480px)" srcset="images/origin.jpeg">
+                <source media="(max-width: 768px)" srcset="images/origin.jpeg">
+                <img 
+                    src="images/origin.jpeg" 
+                    srcset="images/origin.jpeg 400w, images/origin.jpeg 800w"
+                    sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 300px"
+                    alt="Ethically sourced coffee beans from small-scale farmers">
+            </picture>
 
             <h3>In-House Roasting</h3>
             <p>Our beans are roasted in small batches right here in Cape Town to unlock unique flavour profiles.</p>
@@ -50,7 +59,12 @@
 
             <h3>Community Hub</h3>
             <p>More than just coffee – we're a warm, welcoming space for connection, work, and relaxation.</p>
-            <img src="images/coffee-community.jpeg" alt="Coffee Community" width="150" height="auto">
+
+            <img 
+                src="images/coffee-community.jpeg" 
+                srcset="images/coffee-community.jpeg 400w, images/coffee-community.jpeg 800w"
+                sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 300px"
+                alt="People enjoying coffee together in our community space">
 
         </section>
 
