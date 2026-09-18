@@ -64,12 +64,17 @@ Added descriptive `alt` text to all images.
 Fixes
 Removed invalid `height="auto"` attributes from `<img>` tags.
 Corrected `call-us.jpg` → `call-us.jpeg`.
-Corrected Windows backslash `\` → forward slash `/` in image paths.
-Renamed `coffee community.jpeg` → `coffee-community.jpeg` (removed space).
+Corrected Windows backslash `\` to forward slash `/` in image paths.
+Renamed `coffee community.jpeg` to `coffee-community.jpeg` (removed space).
 
 Screenshots
--Laptop
 
+Laptop
+images/laptop.png
+mobile
+images/mobile.png
+tablet
+images/tablet.png
 
 References
 
