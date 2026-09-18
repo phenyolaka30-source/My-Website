@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-dark-brown: #3E2723;
+    --color-medium-brown: #6F4E37;
+    --color-caramel: #C08552;
+    --color-cream: #F5F0E6;
+    --color-off-white: #FFFDF8;
+    --color-text: #2B2B2B;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-cream);
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: var(--color-dark-brown);
+    letter-spacing: 1px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: var(--color-medium-brown);
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+em {
+    font-style: italic;
+    color: var(--color-medium-brown);
+}
+
+strong {
+    font-weight: bold;
+    color: var(--color-dark-brown);
+}
+
+header {
+    background-color: var(--color-dark-brown);
+    color: var(--color-cream);
+    text-align: center;
+    padding: 30px 20px 20px;
+}
+
+header h1 {
+    color: var(--color-cream);
+    margin-bottom: 5px;
+}
+
+header p em {
+    color: var(--color-caramel);
+    font-size: 1.1rem;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: var(--color-cream);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--color-caramel);
+    text-decoration: underline;
+}
+
+nav a:focus {
+    outline: 2px solid var(--color-caramel);
+    outline-offset: 2px;
+}
+
+nav a:active {
+    color: var(--color-caramel);
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    background-color: var(--color-off-white);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+main a {
+    color: var(--color-medium-brown);
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid var(--color-caramel);
+    padding-bottom: 1px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+main a:hover {
+    color: var(--color-off-white);
+    background-color: var(--color-medium-brown);
+}
+
+main a:focus {
+    outline: 2px solid var(--color-caramel);
+    outline-offset: 2px;
+}
+
+main a:active {
+    color: var(--color-dark-brown);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--color-caramel);
+    margin: 20px 0;
+}
+
+footer {
+    background-color: var(--color-dark-brown);
+    color: var(--color-cream);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer strong {
+    color: var(--color-caramel);
+    font-size: 1.1rem;
+}
+
+footer a {
+    color: var(--color-cream);
+    text-decoration: none;
+    padding: 0 5px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--color-caramel);
+    text-decoration: underline;
+}
+
+footer a:focus {
+    outline: 2px solid var(--color-caramel);
+    outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    header {
+        padding: 20px 15px 15px;
+    }
+
+    main {
+        padding: 25px 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 5px 8px;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    header {
+        padding: 15px 10px;
+    }
+
+    main {
+        padding: 20px 10px;
+    }
+
+    section {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    nav a {
+        display: block;
+        padding: 6px 0;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+}
