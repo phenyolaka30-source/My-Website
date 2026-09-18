@@ -70,7 +70,7 @@ Renamed `coffee community.jpeg` to `coffee-community.jpeg` (removed space).
 Screenshots
 
 Laptop
-images/laptop.png
+![image alt](https://github.com/phenyolaka30-source/My-Website/blob/b227bb2d2c2fe79be67ef0ff1cd8b8dc059ba2aa/images/laptop.png)
 mobile
 images/mobile.png
 tablet
