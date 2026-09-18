@@ -72,9 +72,9 @@ Screenshots
 Laptop
 ![image alt](https://github.com/phenyolaka30-source/My-Website/blob/b227bb2d2c2fe79be67ef0ff1cd8b8dc059ba2aa/images/laptop.png)
 mobile
-images/mobile.png
+![image alt](https://github.com/phenyolaka30-source/My-Website/blob/d6316953de1072ead6934ba5e303050904a4fe2b/images/mobile.png)
 tablet
-images/tablet.png
+![image alt](
 
 References
 
