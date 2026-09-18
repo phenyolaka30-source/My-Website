@@ -73,3 +73,128 @@ nav a{
     padding: 5px 10px;
     transition: color 0.3s;
 }
+nav a:hover{
+    color:var(--color-caramel);
+    text-decoration: underline;    
+}
+nav a:focus{
+    outline: 2px solid var(--color-caramel);
+    outline-offset: 2px;
+}
+nav a:active{
+    color:var(--color-caramel);
+}
+main{
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+section{
+    background-color: var(--color-off-white);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+main a{
+    color:var(--color-medium-brown);
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid var(--color-caramel);
+    padding-bottom: 1px;
+    transition: color 0.3s,background-color 0.3s;
+}
+main a:focus{
+    outline: 2px solid var(--color-caramel);
+    outline: 2px;
+}
+main a:active{
+    color: var(--color-dark-brown);
+}
+hr{
+    border: none;
+    border-top: 1px solid var(--color-caramel);
+    margin: 20px 0;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer strong{
+    color: var(--color-caramel);
+    font-size: 1.1rem;
+}
+footer a{
+    color:var(--color-cream);
+    text-decoration: none;
+    padding: 0 5px;
+    transition: color 0.3s;
+}
+footer a:hover{
+    color: var(--color-caramel);
+    text-decoration: underline;
+}
+footer a:focus{
+    outline: 2px solid var(--color-caramel);
+    outline-offset: 2px;
+}
+@media (max-width: 768px){
+    h1{
+        font-family: 2rem;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    header{
+        padding: 20 px 15px 15px;
+    }
+    main{
+        padding: 25px 15px;
+    }
+    section{
+        padding: 20px;
+    }
+    nav a{
+        display: inline-block;
+        padding: 5px 8px;
+        font-size: 0.95rem;
+    }
+}
+@media(max-width:480px){
+    h1{
+        font-size: 1.6rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    body{
+        font-size: 15px;
+    }
+    header{
+        padding: 15px 10px;
+    }
+    main{
+        padding: 20px 10px;
+    }
+    section{
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    nav a{
+        display: block;
+        padding: 6px 0;
+    }
+    footer{
+        padding: 20px 10px;
+    }
+}    
+    
+    
