@@ -1,32 +1,76 @@
-Coffee Support Page
+Brew & Bean Coffee Co. — Website
 
-A simple HTML page displaying contact information and business hours for a coffee-related brand.
+A responsive five-page website for a fictional artisan coffee shop based in Cape Town.
 
-Images Used
+Student:PHENYO LAKA
+Student Number:ST10469904
+Subject:Web Development (Introduction)
+Module Code:WEDE5020POE
 
-To make this page work correctly, please save the following images in your project folder:
+contents
 
-- hand.jpg - Hand with "I have a question" text
-- call-button.png  - "Call us now" button with a phone number
-- coffee-toast.jpg - Group of people toasting with coffee mugs
-- monday-friday.png  - "Monday to Friday" text graphic
-- farm.jpg - People standing in a coffee farm
+index.html 
+about.html 
+services.html 
+enquiry.html 
+contact.html 
+style.css 
+README.md
+images/Site images
+screenshots
+references
 
-How to Use
+Design
 
-1. Download or save all 5 images listed above into the same folder as your HTML file.
-2. Open the HTML file in any web browser to view the page.
+Colour scheme:
+Coffee-themed palette using CSS named colours — `saddlebrown`, `peru`, `beige`, `white`, `black` — stored as CSS variables in `:root`.
+Typography:** `Georgia` (serif) for headings, `Arial` (sans-serif) for body text.
+Layout:** Centered content column (`max-width: 900px`) with soft shadows on section cards.
 
-Setup Instructions
+Responsive Design
 
-If you are editing the code:
+ Breakpoint | Target | Changes 
+ `max-width: 768px`  Tablet | Smaller headings, tighter padding 
+ `max-width: 480px`  Mobile | Stacked navigation, single-column layout, smaller font 
+Images use `srcset` and `sizes` attributes, plus the `<picture>` element on the homepage hero.
 
-1. Open the `.html` file in a text editor (like Notepad, VS Code, or Sublime Text).
-2. Make sure the `src=""` names in the `<img>` tags match the actual names of the image files you have saved.
-3. Save your changes and refresh your browser.
+Changelog — Part 2
 
-## Technologies
+CSS Styling
+Created external `style.css` and linked it to all 5 HTML pages.
+Added a CSS reset (`* { margin: 0; padding: 0; box-sizing: border-box; }`).
+Defined the colour scheme as CSS variables in `:root`.
+Applied typography: `font-family`, `font-size`, `line-height`, `letter-spacing`.
+Applied visual styles: background colours, borders, `border-radius`, `box-shadow`.
+Added interactive states: `:hover`, `:focus`, `:active` on all links.
 
-- HTML
+Layout
+Styled header with dark brown background and centered content.
+Styled navigation as a horizontal inline menu.
+Styled `<main>` as a centered column with max-width.
+Styled sections as white cards with padding and shadows.
+Styled footer with dark background and centered text.
 
-Note: This is a basic template. You can adjust the image sizes and layout by editing the CSS in the `<style>` section of the HTML file
+Responsive Design
+Added `@media (max-width: 768px)` for tablet.
+Added `@media (max-width: 480px)` for mobile.
+Used relative units (`rem`, `%`) throughout.
+
+Responsive Images
+Added `srcset` and `sizes` attributes to all `<img>` tags.
+Used the `<picture>` element on the homepage hero image.
+Added descriptive `alt` text to all images.
+
+Fixes
+Removed invalid `height="auto"` attributes from `<img>` tags.
+Corrected `call-us.jpg` → `call-us.jpeg`.
+Corrected Windows backslash `\` → forward slash `/` in image paths.
+Renamed `coffee community.jpeg` → `coffee-community.jpeg` (removed space).
+
+References
+
+MDN Web Docs — CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
+MDN Web Docs — Responsive Images: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+MDN Web Docs — CSS Variables: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+W3Schools — CSS Media Queries: https://www.w3schools.com/css/css3_mediaqueries.asp
+W3Schools — CSS Colour Names: https://www.w3schools.com/cssref/css_colors.asp
