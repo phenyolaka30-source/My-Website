@@ -74,7 +74,7 @@ Laptop
 mobile
 ![image alt](https://github.com/phenyolaka30-source/My-Website/blob/d6316953de1072ead6934ba5e303050904a4fe2b/images/mobile.png)
 tablet
-![image alt](
+![image alt](https://github.com/phenyolaka30-source/My-Website/blob/36921e3e5bb187809de0d92667cebf170fdaefd2/images/tablet.png)
 
 References
 
